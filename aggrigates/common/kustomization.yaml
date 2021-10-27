@@ -1,0 +1,20 @@
+apiVersion: kustomize.config.k8s.io/v1alpha1
+kind: Component
+
+resources:
+- ../../edv/kustomize/edv/overlays/common
+- ../../kms/kustomize/kms/overlays/common
+- ../../vct/kustomize/vct/overlays/common
+- ../../orb/kustomize/orb/overlays/common
+- ../../orb-driver/kustomize/orb-driver/overlays/common
+- ../../resolver/kustomize/resolver/overlays/common
+- ../../registrar/kustomize/registrar/overlays/common
+- ../../csh/kustomize/csh/overlays/common
+- ../../vcs/kustomize/vcs/overlays/common
+- ../../vault-server/kustomize/vault-server/overlays/common
+- ../../hub-auth/kustomize/hub-auth/overlays/common
+- ../../hub-router/kustomize/hub-router/overlays/common
+- ../../wallet-server/kustomize/wallet-server/overlays/common
+- ../../wallet-web/kustomize/wallet-web/overlays/common
+- ../../adapter-issuer/kustomize/adapter-issuer/overlays/common
+- ../../adapter-rp/kustomize/adapter-rp/overlays/common
