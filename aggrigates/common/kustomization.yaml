@@ -6,7 +6,7 @@ resources:
 - ../../kms/kustomize/kms/overlays/common
 - ../../vct/kustomize/vct/overlays/common
 - ../../orb/kustomize/orb/overlays/common
-- ../../orb-driver/kustomize/orb-driver/overlays/common
+- ../../orb-driver/kustomize/orb-driver/overlays/common/orb-driver
 - ../../resolver/kustomize/resolver/overlays/common
 - ../../registrar/kustomize/registrar/overlays/common
 - ../../csh/kustomize/csh/overlays/common
