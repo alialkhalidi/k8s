@@ -15,7 +15,7 @@ export DEPLOYMENT_ENV	?= local
 COMMON_LABELS		:= instance:${DEPLOYMENT_ENV}
 export DOMAIN      		?= ${DEPLOYMENT_ENV}.trustbloc.dev
 export AUTH_MONGODB_URL								?= mongodb://mongoroot:secret@mongodb:27017
-export HYDRA_POSTGRES_DSN								?= postgres://authresthydra:authresthydra-secret-pw@postgres:5432/authresthydra?sslmode=disable
+export AUTH_HYDRA_POSTGRES_DSN								?= postgres://authresthydra:authresthydra-secret-pw@postgres:5432/authresthydra?sslmode=disable
 
 OS 				= $(shell uname -s | tr '[:upper:]' '[:lower:]')
 ARCH  				= $(shell uname -m | sed 's/x86_64/amd64/')
